@@ -1,8 +1,1 @@
-{"PuntosCaracter": {"str": 16, "int": 16, "con": 17, "dex": 10, "sab": 13, "car": 11}, 
-"Dote": {"Soltura con un arma": "Bonif. +1 a las tiradas de ataque con un arma determinada", 
-    "Ataque poderoso": "Cambias bonificador al ataque cuerpo a cuerpo por danio", 
-    "Reflejos de combate": "Haz ataques de oportunidad adicionales", 
-    "Hendedura": "Haz un ataque adicional si el primero impacta"},
-"Idiomas":{"1":"Comun"}
-
-}
+{"Nivel": {"nvl": 1, "experiencia": 0}, "PuntosCaracter": {"str": 16, "des": 16, "con": 17, "int": 10, "sab": 13, "car": 12}, "Idiomas": {"1": "Comun"}, "Habilidades": {"Acrobacias": 0, "Artesania": 0, "Averiguarintenciones": 0, "Conocimientodeconjuros": 0, "Curar": 0, "Disfrazarse": 0, "Diplomacia": 0, "Enganar": 0, "Escapismo": 0, "Interpretar": 0, "Intimidar": 0, "Inutilizarmecanismo": 0, "Juegodemanos": 0, "Linguistica": 0, "Montar": 0, "Nadar": 0, "Percepcion": 0, "Profesion": 0, "Saber_geografia": 0, "Saber_losPlanos": 0, "Saber_ingenieria": 0, "Saber_arcano": 0, "Saber_nobleza": 0, "Saber_historia": 0, "Saber_Naturaleza": 0, "Saber_dungeons": 0, "Saber_religion": 0, "Sigilo": 0, "Supervivencia": 0, "Tasacion": 0, "Tratoconanimales": 7, "Trepar": 7, "Usarobjetomogico": 0, "Volar": 0}, "Dote": {"Soltura con un arma": "Bonif. +1 a las tiradas de ataque con un arma determinada", "Ataque poderoso": "Cambias bonificador al ataque cuerpo a cuerpo por danio", "Reflejos de combate": "Haz ataques de oportunidad adicionales", "Hendedura": "Haz un ataque adicional si el primero impacta"}}

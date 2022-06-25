@@ -1,6 +1,6 @@
-
 import ClasesPer
 import Equipo
+import json
 #Hoja de personaje PATHFINDER
 """
 REMPLAZAR LINEA ESPECIFICA EN UN TXT, PARA SUBIR DE NIVEL
@@ -9,8 +9,11 @@ contenido.insert(LINEA,TEXTO)
 f = file("ARCHIVO.txt", "w")
 f.writelines("\n".join(contenido))
 """
+Alma = open("soul.json","r")
+Atributos = json.load(Alma)
+
 NomPer =  'Ioc'
-NIVEL = 1#ALMA
+NIVEL = Atributos["Nivel"]["nvl"]#ALMA
 ALINEAMIENTO = 'NEUTRAL'
 HOGAR   = 'AQUI'
 RAZA    = 'HUMANA'
@@ -30,14 +33,12 @@ MODTAM = 0
 PG = 15
 #Puntos de caracter ALMA
 
-Alma = open('Alma.txt','r')
-Atributos = Alma.readlines()
-FUE = Atributos[0]
-DES = Atributos[1]
-CON = Atributos[2]
-INT = Atributos[3]
-SAB = Atributos[4]
-CAR = Atributos[5]
+FUE = Atributos["PuntosCaracter"]["str"]
+DES = Atributos["PuntosCaracter"]["des"]
+CON = Atributos["PuntosCaracter"]["con"]
+INT = Atributos["PuntosCaracter"]["int"]
+SAB = Atributos["PuntosCaracter"]["sab"]
+CAR = Atributos["PuntosCaracter"]["car"]
 #Modificador de caracter
 """ 
 MODFUE = int((FUE-10)/2)
@@ -121,7 +122,7 @@ VEL = 30
 #print (ClasesPer.Guerrero.Fortaleza(NIVEL))
 
 #Idioma
-Idiomas = Alma.readline()
+Idiomas = Atributos["Idiomas"]
 print(Idiomas)
 #-----------------------------------------------------------------------------------------------------------------
 #----------------------------------------------ARMAS y ARMADURAS----------------------------------------------
@@ -146,85 +147,50 @@ NOMARMADURA = Equipo.Puesto.Armadura(0)
 #-----------------------------------------------------------------------------------------------------------------
 #----------------------------------------------HABILIDADES----------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------
-"""
-Acrobacias					=MODDES+RANGOS+MODVARIOShABILIDAD
-Artesanía					=MODINT+RANGOS+MODVARIOShABILIDAD
-Averiguar intenciones 		=MODSAB+RANGOS+MODVARIOShABILIDAD
-Conocimiento de conjuros*	=MODINT+RANGOS+MODVARIOShABILIDAD
-Curar 						=MODSAB+RANGOS+MODVARIOShABILIDAD
-Disfrazarse 				=MODCAR+RANGOS+MODVARIOShABILIDAD
-Diplomacia 					=MODCAR+RANGOS+MODVARIOShABILIDAD
-Engañar 					=MODCAR+RANGOS+MODVARIOShABILIDAD
-Escapismo    				=MODDES+RANGOS+MODVARIOShABILIDAD
-Interpretar					=MODCAR+RANGOS+MODVARIOShABILIDAD
-Intimidar 				    =MODCAR+RANGOS+MODVARIOShABILIDAD
-Inutilizar mecanismo* 		=MODDES+RANGOS+MODVARIOShABILIDAD
-Juego de manos* 			=MODDES+RANGOS+MODVARIOShABILIDAD
-Lingüística* 				=MODINT+RANGOS+MODVARIOShABILIDAD
-Montar						=MODDES+RANGOS+MODVARIOShABILIDAD
-Nadar						=MODFUE+RANGOS+MODVARIOShABILIDAD
-Percepción 					=MODSAB+RANGOS+MODVARIOShABILIDAD
-Profesión*					=MODSAB+RANGOS+MODVARIOShABILIDAD
-Saber (geografía)*			=MODINT+RANGOS+MODVARIOShABILIDAD
-Saber (los Planos)* 		=MODINT+RANGOS+MODVARIOShABILIDAD
-Saber (ingeniería)*			=MODINT+RANGOS+MODVARIOShABILIDAD
-Saber (arcano)*				=MODINT+RANGOS+MODVARIOShABILIDAD
-Saber (nobleza)* 			=MODINT+RANGOS+MODVARIOShABILIDAD
-Saber (historia)*			=MODINT+RANGOS+MODVARIOShABILIDAD
-Saber (Naturaleza)* 		=MODINT+RANGOS+MODVARIOShABILIDAD
-Saber (dungeons)*			=MODINT+RANGOS+MODVARIOShABILIDAD
-Saber (religión)*			=MODINT+RANGOS+MODVARIOShABILIDAD
-Sigilo						=MODDES+RANGOS+MODVARIOShABILIDAD
-Supervivencia				=MODSAB+RANGOS+MODVARIOShABILIDAD
-Tasación 					=MODINT+RANGOS+MODVARIOShABILIDAD
-Trato con animales* 		=MODCAR+RANGOS+MODVARIOShABILIDAD
-Trepar						=MODFUE+RANGOS+MODVARIOShABILIDAD
-Usar objeto mágico* 		=MODCAR+RANGOS+MODVARIOShABILIDAD
-Volar 						=MODDES+RANGOS+MODVARIOShABILIDAD
-"""
-Idioas = 'comun'
+
+MODVARIOSH = 0
+RANGOS = ClasesPer.Guerrero.ModHabilidad
+
+Acrobacias=((MODDES+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Acrobacias"]
+Artesania=((MODINT+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Artesania"]
+Averiguarintenciones=((MODSAB+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Averiguarintenciones"]
+Conocimientodeconjuros=((MODINT+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Conocimientodeconjuros"]
+Curar=((MODSAB+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Curar"]
+Disfrazarse=((MODCAR+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Disfrazarse"]
+Diplomacia=((MODCAR+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Diplomacia"]
+Engañar=((MODCAR+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Enganar"]
+Escapismo=((MODDES+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Escapismo"]
+Interpretar=((MODCAR+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Interpretar"]
+Intimidar=((MODCAR+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Intimidar"]
+Inutilizarmecanismo=((MODDES+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Inutilizarmecanismo"]
+Juegodemanos=((MODDES+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Juegodemanos"]
+Lingüística=((MODINT+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Linguistica"]
+Montar=((MODDES+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Montar"]
+Nadar=((MODFUE+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Nadar"]
+Percepción=((MODSAB+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Percepcion"]
+Profesión=((MODSAB+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Profesion"]
+Saber_geografía=((MODINT+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Saber_geografia"]
+Saber_losPlanos=((MODINT+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Saber_losPlanos"]
+Saber_ingeniería=((MODINT+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Saber_ingenieria"]
+Saber_arcano=((MODINT+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Saber_arcano"]
+Saber_nobleza=((MODINT+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Saber_nobleza"]
+Saber_historia=((MODINT+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Saber_historia"]
+Saber_Naturaleza=((MODINT+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Saber_Naturaleza"]
+Saber_dungeons=((MODINT+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Saber_dungeons"]
+Saber_religión=((MODINT+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Saber_religion"]
+Sigilo=((MODDES+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Sigilo"]
+Supervivencia=((MODSAB+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Supervivencia"]
+Tasación=((MODINT+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Tasacion"]
+Tratoconanimales=((MODCAR+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Tratoconanimales"]
+Trepar=((MODFUE+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Trepar"]
+Usarobjetomágico=((MODCAR+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Usarobjetomogico"]
+Volar=((MODDES+RANGOS+MODVARIOSH)*0)+Atributos["Habilidades"]["Volar"]
 
 #-----------------------------------------------------------------------------------------------------------------
 #----------------------------------------------HABILIDADES----------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------
 
-MODVARIOSH = 0
-RANGOS = ClasesPer.Guerrero.ModHabilidad
 
-Acrobacias=MODDES+RANGOS+MODVARIOSH
-Artesanía=MODINT+RANGOS+MODVARIOSH
-Averiguarintenciones=MODSAB+RANGOS+MODVARIOSH
-Conocimientodeconjuros=MODINT+RANGOS+MODVARIOSH
-Curar=MODSAB+RANGOS+MODVARIOSH
-Disfrazarse=MODCAR+RANGOS+MODVARIOSH
-Diplomacia=MODCAR+RANGOS+MODVARIOSH
-Engañar=MODCAR+RANGOS+MODVARIOSH
-Escapismo=MODDES+RANGOS+MODVARIOSH
-Interpretar=MODCAR+RANGOS+MODVARIOSH
-Intimidar=MODCAR+RANGOS+MODVARIOSH
-Inutilizarmecanismo=MODDES+RANGOS+MODVARIOSH
-Juegodemanos=MODDES+RANGOS+MODVARIOSH
-Lingüística=MODINT+RANGOS+MODVARIOSH
-Montar=MODDES+RANGOS+MODVARIOSH
-Nadar=MODFUE+RANGOS+MODVARIOSH
-Percepción=MODSAB+RANGOS+MODVARIOSH
-Profesión=MODSAB+RANGOS+MODVARIOSH
-Saber_geografía=MODINT+RANGOS+MODVARIOSH
-Saber_losPlanos=MODINT+RANGOS+MODVARIOSH
-Saber_ingeniería=MODINT+RANGOS+MODVARIOSH
-Saber_arcano=MODINT+RANGOS+MODVARIOSH
-Saber_nobleza=MODINT+RANGOS+MODVARIOSH
-Saber_historia=MODINT+RANGOS+MODVARIOSH
-Saber_Naturaleza=MODINT+RANGOS+MODVARIOSH
-Saber_dungeons=MODINT+RANGOS+MODVARIOSH
-Saber_religión=MODINT+RANGOS+MODVARIOSH
-Sigilo=MODDES+RANGOS+MODVARIOSH
-Supervivencia=MODSAB+RANGOS+MODVARIOSH
-Tasación=MODINT+RANGOS+MODVARIOSH
-Tratoconanimales=MODCAR+RANGOS+MODVARIOSH
-Trepar=MODFUE+RANGOS+MODVARIOSH
-Usarobjetomágico=MODCAR+RANGOS+MODVARIOSH
-Volar=MODDES+RANGOS+MODVARIOSH
 #-----------------------------------------------------------------------------------------------------------------
 #----------------------------------------------DOTES----------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------
@@ -237,7 +203,7 @@ Dotes = [['Soltura con un arma','Bonif. +1 a las tiradas de ataque con un arma d
          ['Ataque poderoso','Cambias bonificador al ataque cuerpo a cuerpo por daño'],
          ['Reflejos de combate','Haz ataques de oportunidad adicionales']]
 """
-Dotes = Alma.read()
+Dotes = Atributos["Dote"]
 
 NDo = len(Dotes)
 
