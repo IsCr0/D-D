@@ -86,6 +86,8 @@ with open('soul.json', 'w') as outfile:
     
     
 """
+Pagina donde viene el while para que siempre aparesca la pantalla
+https://estadisticamente.com/programar-calculadora-python/1
 
 #print(data["Ataque poderoso"])
 

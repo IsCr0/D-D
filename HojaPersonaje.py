@@ -14,6 +14,7 @@ Atributos = json.load(Alma)
 
 NomPer =  'Ioc'
 NIVEL = Atributos["Nivel"]["nvl"]#ALMA
+CLASE = ClasesPer.Guerrero.NomClase
 ALINEAMIENTO = 'NEUTRAL'
 HOGAR   = 'AQUI'
 RAZA    = 'HUMANA'
@@ -40,7 +41,7 @@ INT = Atributos["PuntosCaracter"]["int"]
 SAB = Atributos["PuntosCaracter"]["sab"]
 CAR = Atributos["PuntosCaracter"]["car"]
 #Modificador de caracter
-""" 
+
 MODFUE = int((FUE-10)/2)
 MODDES = int((DES-10)/2)
 MODCON = int((CON-10)/2)
@@ -74,8 +75,10 @@ for val in range(10,45,2):
     k=k+1    
         
     #k++
- 
-print(Alma.read())
+""" 
+
+
+#print(Alma.read())
 #ARMADURA NATURAL 
 # if RAZA = 'HUMANA' : 0
 # if RAZA = 'ELFO' : 0
@@ -110,7 +113,7 @@ RESCONJUROS = 2
 BMC = ATAQUEBASE+MODFUE+MODTAM
 #Defensa contra Maniobras de Combate
 DMC = 10 +ATAQUEBASE+MODFUE+MODDES+MODTAM
-#VELOCIDAD30 pies (9 m).
+#VELOCIDAD: 30 pies (9 m).
 # if RAZA = 'HUMANA' : 30
 VEL = 30 
 #NADAR
@@ -123,13 +126,13 @@ VEL = 30
 
 #Idioma
 Idiomas = Atributos["Idiomas"]
-print(Idiomas)
+#print(Idiomas)
 #-----------------------------------------------------------------------------------------------------------------
 #----------------------------------------------ARMAS y ARMADURAS----------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------
 
 #ARM
-NombreArm   = Equipo.Puesto.Armas(0)
+NombreArm   = Equipo.Puesto.Armas(0)+" - Dado: "+Equipo.Puesto.Armas(1)
 #ARMCOM = Equipo.Puesto.Armas
 
 #ESCUDO
@@ -207,7 +210,7 @@ Dotes = Atributos["Dote"]
 
 NDo = len(Dotes)
 
-print(Dotes)
+#print(Dotes)
 Alma.close()
 
 
