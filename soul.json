@@ -1,0 +1,8 @@
+{"PuntosCaracter": {"str": 16, "int": 16, "con": 17, "dex": 10, "sab": 13, "car": 11}, 
+"Dote": {"Soltura con un arma": "Bonif. +1 a las tiradas de ataque con un arma determinada", 
+    "Ataque poderoso": "Cambias bonificador al ataque cuerpo a cuerpo por danio", 
+    "Reflejos de combate": "Haz ataques de oportunidad adicionales", 
+    "Hendedura": "Haz un ataque adicional si el primero impacta"},
+"Idiomas":{"1":"Comun"}
+
+}

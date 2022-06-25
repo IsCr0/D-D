@@ -1,0 +1,8 @@
+16
+16
+17
+10
+13
+11
+Idiomas = 'comun'
+Dotes = [['Soltura con un arma','Bonif. +1 a las tiradas de ataque con un arma determinada'],['Ataque poderoso','Cambias bonificador al ataque cuerpo a cuerpo por danio'],['Reflejos de combate','Haz ataques de oportunidad adicionales']]
