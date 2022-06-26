@@ -1,9 +1,21 @@
 #import HojaPersonaje
 import json
 
-f = open("soul.json","r")
+"""
+soul = ''
+Opc = int(input(
+    
+    Personajes: 
+        1) Ioc
+        2) PGenerico1
+    Elige la Opcion 
+    ))
 
-data = json.load(f)
+
+if Opc == 1: soul = "Personajes/soulPru1.json"           
+if Opc == 2: soul = "Personajes/soulPru3.json"
+"""
+
 
 #print(data["Dote"]["Soltura con un arma"])
 
@@ -16,6 +28,12 @@ data = json.load(f)
 
 #data["PuntosCaracter"]["str"] = 20
 #while True:
+soul = "Personajes/soul.json"
+
+f = open(soul,"r")
+
+data = json.load(f)
+
 print("""
         Dime, ¿qué quieres hacer?
         
@@ -77,9 +95,8 @@ if opcion == 7:
         #break
     
 f.close  
-  
-    
-with open('soul.json', 'w') as outfile:
+
+with open(soul, 'w') as outfile:
     json.dump(data, outfile)
 
 

@@ -37,7 +37,7 @@ class Guerrero:
         TirVol = GuerreroVol[nvl-1]#Cada 2 niveles +1
         return TirVol
         
-    #Habilidades
+    #Habilidades Tiradas de clase +3 al subir estas habilidades
     """ 
 	Artesania           = TRUE
     Intimidar           = TRUE
@@ -90,7 +90,7 @@ class Mago:
         TirVol = MagoVol[nvl-1]#Cada 2 niveles +1
         return TirVol
         
-    #Habilidades
+    #Habilidades Tiradas de clase +3 al subir estas habilidades
     """ 
 	Artesania           = TRUE
     Intimidar           = TRUE
