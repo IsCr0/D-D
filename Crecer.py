@@ -43,7 +43,8 @@ print("""
         4) Subir PuntosCaracter
         5) Agregar Idioma
         6) Eliminar Dote??
-        7) Salir
+        7) Subir Vida
+        8) Salir
         """)
 
 opcion = int(input("Elige una opcion: "))
@@ -90,7 +91,7 @@ if opcion == 6:
         DoteE = input("Introduce Dote: ")
         #data["Dote"].pop(DoteE)
             
-if opcion == 7:
+if opcion == 8:
         print("Bye")
         #break
     
