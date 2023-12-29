@@ -1,0 +1,72 @@
+{
+    "Caracteristicas": {
+        "nombre": "test",
+        "clase": "bardo",
+        "alineamiento": "bueno",
+        "hogar": "Casa",
+        "raza": "tiflin",
+        "deidad": "Alguno",
+        "tamanio": "mediano",
+        "sexo": "mujer",
+        "edad": "23",
+        "altura": "1.59",
+        "peso": "47",
+        "cabello": "rojo",
+        "ojos": "azul"
+    },
+    "Nivel": {
+        "nvl": 1,
+        "experiencia": 0
+    },
+    "PuntosCaracter": {
+        "str": 10,
+        "des": 10,
+        "con": 9,
+        "int": 12,
+        "sab": 14,
+        "car": 16
+    },
+    "Idiomas": {
+        "1": "comun"
+    },
+    "Habilidades": {
+        "Acrobacias": 1,
+        "Artesania": 1,
+        "Averiguarintenciones": 1,
+        "Conocimientodeconjuros": 1,
+        "Curar": 1,
+        "Disfrazarse": 1,
+        "Diplomacia": 1,
+        "Enganar": 1,
+        "Escapismo": 1,
+        "Interpretar": 1,
+        "Intimidar": 1,
+        "Inutilizarmecanismo": 1,
+        "Juegodemanos": 2,
+        "Linguistica": 4,
+        "Montar": 1,
+        "Nadar": 2,
+        "Percepcion": 4,
+        "Profesion": 5,
+        "Saber_geografia": 7,
+        "Saber_losPlanos": 2,
+        "Saber_ingenieria": 7,
+        "Saber_arcano": 5,
+        "Saber_nobleza": 8,
+        "Saber_historia": 5,
+        "Saber_Naturaleza": 4,
+        "Saber_dungeons": 7,
+        "Saber_religion": 4,
+        "Sigilo": 5,
+        "Supervivencia": 7,
+        "Tasacion": 4,
+        "Tratoconanimales": 8,
+        "Trepar": 4,
+        "Usarobjetomogico": 5,
+        "Volar": 7
+    },
+    "Dote": {
+        "cargar": "cargacontra enemigos",
+        "otro xD": "Otra habilidad"
+    }
+}

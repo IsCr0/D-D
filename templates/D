@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="btn-group dropright">
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+        Git
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="https://bluuweb.github.io/tutorial-github/guia/fundamentos.html">Comandos
+            básicos</a>
+        <a class="dropdown-item" href="https://www.youtube.com/watch?v=hWglK8nWh60">Basico para Git y Github</a>
+        <a class="dropdown-item" href="https://www.youtube.com/watch?v=HiXLkL42tMU&t=1017s">Git y Github Desde Cero</a>
+    </div>
+</div><p></p>
+<div class="btn-group dropright">
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+        Bootstrap
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="https://getbootstrap.com/docs/4.5/components/dropdowns/">Documentacion</a>
+        <a class="dropdown-item" href="#">#</a>
+        <a class="dropdown-item" href="#">#</a>
+    </div>
+<div>
+    
+    <a>Aqui esta un video dondes de descargo algo de internet usando python con selenium probar
+        https://www.youtube.com/watch?v=87TbAHSt2zI
+
+        from selenium import webdriver
+        ff = webdriver.firefox
+
+        ff.get("sitio web")
+
+        ff.quit()
+    </a>
+
+</div>
+
+</div>
+{% endblock %}

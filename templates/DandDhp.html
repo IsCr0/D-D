@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoja de personaje de D&D5</title>
+
+    <script>
+      function generarNumeroAleatorio() {
+          // Generar un número aleatorio entre 1 y 100
+          var numeroAleatorio = Math.floor(Math.random() * 100) + 1;
+          
+          // Mostrar el número en un elemento con el id "resultado"
+          document.getElementById("resultado").innerHTML = "Número Aleatorio: " + numeroAleatorio;
+      }
+  </script>
+  
+  </head>
+  <body>
+    <h1>Hoja de personaje de D&D5</h1>
+
+    <form action="/action_page.php" method="post">
+      <table class="hoja-personaje", cellspacing="30">
+        <tr>
+          <td class="datos-basicos">
+            <h2>Datos básicos</h2>
+            <label for="nombre">Nombre: {{ nombrePer }}</label>
+            <p></p>
+            <label for="raza">Raza: {{ RAZA }}</label>
+            <br />
+            <label for="clase">Clase: {{ CLASE }}</label>
+            <br />
+            <label for="nivel">Nivel: {{ nvl }} </label><br />
+            <label for="puntos_de_golpe"> Puntos de golpe: {{ pungol }}</label>
+          </td>
+          <td class="Espacio">
+
+          </td>
+          <td class="atributos">
+            <h2>Atributos</h2>
+
+            <label for="fuerza">Fuerza: {{ FUE }} | MODFUE: {{ MODFUE }}</label>
+            <br />
+
+            <label for="destreza"
+              >Destreza: {{ DES }} | MODDES: {{ MODDES }}</label
+            >
+            <br />
+
+            <label for="constitucion"
+              >Constitución: {{ CON }} | MODCON: {{ MODCON }}</label
+            >
+            <br />
+
+            <label for="inteligencia"
+              >Inteligencia: {{ INT }} | MODINT: {{ MODINT }}</label
+            >
+            <br />
+
+            <label for="sabiduria"
+              >Sabiduría: {{ SAB }} | MODSAB: {{ MODSAB }}</label
+            >
+            <br />
+
+            <label for="carisma"
+              >Carisma: {{ CAR }} | MODCAR: {{ MODCAR }}</label
+            >
+            <br />
+          </td>
+        </tr>
+      </table>
+
+      <br />
+
+      <h2>Equipo</h2>
+
+      <label for="Armas Equipadas">Selecciona un Arma:</label>
+        <select id="lEqu" name="lEqu">
+            {% for Equipado in lEqu %}
+                <option value="{{ lEqu }}">{{ Equipado }}</option>
+            {% endfor %}
+        </select>
+      
+      <input type="submit" value="Usar Arma" />
+      <button onclick="generarNumeroAleatorio()">Generar Número Aleatorio</button>
+      <p id="resultado"></p>
+      <br />
+      <ul>
+        {% for item in Armad %}
+            <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      
+    </form>
+  </body>
+</html>

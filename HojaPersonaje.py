@@ -24,13 +24,14 @@ Opc = int(input(
 
 if Opc == 1: soul = "Personajes/soulPru1.json"           
 if Opc == 2: soul = "Personajes/soulPru3.json"
+if Opc == 3: soul = "Personajes/personaje.json"
 
 
 Alma = open(soul, "r")
 
 Atributos = json.load(Alma)
 
-NomPer = Atributos["Caracteristicas"]["nomper"]
+NomPer = Atributos["Caracteristicas"]["nombre"]
 NIVEL = Atributos["Nivel"]["nvl"]  # ALMA
 CLASE = Atributos["Caracteristicas"]["clase"]
 ALINEAMIENTO = Atributos["Caracteristicas"]["alineamiento"]
@@ -93,7 +94,9 @@ MODCAR = int((CAR-10)/2)
         k=k+1    
             
         #k++
-    """
+"""
+
+
 
 # print(Alma.read())
 # ARMADURA NATURAL
@@ -147,6 +150,10 @@ Idiomas = Atributos["Idiomas"]
 # -----------------------------------------------------------------------------------------------------------------
 # ----------------------------------------------ARMAS y ARMADURAS----------------------------------------------
 # -----------------------------------------------------------------------------------------------------------------
+
+Equipos = [nombre for nombre, equipado in Atributos['ObjEq'].items() if equipado]
+#Equipos = Atributos['ObjEq']
+Armadura = Atributos['Armadura']
 
 # ARM
 NombreArm = Equipo.Puesto.Armas(0)+" - Dado: "+Equipo.Puesto.Armas(1)

@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+ {% block content %}
+<div class="container p-4">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Funciona???</h1>
+            <p class="lead">Herramientas para Web</p>
+            <!--<a class="btn btn-primary btn-lg" href="https://www.facebook.com/Lilynn02" role="button">
+            <img src = "https://w7.pngwing.com/pngs/282/704/png-transparent-facebook-messenger-logo-icon-facebook-facebook-logo-blue-text-trademark-thumbnail.png" height="50" width="60"/>
+            </a>-->
+        </div>        
+    </div>
+    <a href="https://www.facebook.com/Lilynn02" target="_blank" role="button">
+    <!--<img src = "https://w7.pngwing.com/pngs/282/704/png-transparent-facebook-messenger-logo-icon-facebook-facebook-logo-blue-text-trademark-thumbnail.png" height="50" width="60"/> 
+        La ruta de la imagen tiene que estar dentro de la carpeta static explicacion https://www.it-swarm-es.com/es/python/flask-no-sirve-fotos/1068283653/
+    -->
+    <img src="../static/imagenes/iconof.png" height="90" width="90">
+    </a>
+    <a href="https://twitter.com" target="_blank">
+        <img src="../static/imagenes/iconoTwit.png"  height="90" width="90">
+    </a>
+    <a href="https://www.instagram.com" target="_blank">
+        <img src="../static/imagenes/iconoInsta.png"  height="90" width="90">
+    </a>
+
+</div>
+
+<!-- COLORES DE FONDO  https://uigradients.com/#GrapefruitSunset-->
+{% endblock %}

@@ -1,0 +1,662 @@
+"Abstenci�n de materiales � Lanzas conjuros sin componentes materiales",
+"Acometer* Ataque base +6 Aceptas un pen. �2 a tu CA para atacar con alcance",
+"Acrob�tico � Bonif. +2 a las pruebas de Acrobacias y de Volar",
+"Afinidad con los animales � Bonif. +2 a las pr. de Trato con animales y de Montar",
+"Aguante � Bonificador +4 a las pruebas para evitar da�o no letal",
+"Duro de pelar Aguante Autom�ticamente estabilizado y consciente a menos de 0 pg",
+"Alerta � Bonif. +2 a las pr. de Percepci�n y de Averiguar intenciones",
+"Aptitudes m�gicas � Bonif. +2 a las pr. de Con. de conjuros y Usar objeto m�gico",
+"Artesano maestro 5 rangos en cualquier Puedes crear obj. m�gicos sin ser un lanzador de conjuros habilidad de Artesan�a o Profesi�n",
+"Ataque poderoso* Fue13, ataque base +1 Cambias bonificador al ataque cuerpo a cuerpo por da�o",
+"Arrollar mejorado* Ataque poderoso Bonificador +2 a intentos de arrollar, no AdO",
+"Arrollar mayor* Arrollar mejorado, ataque base +6 Los enemigos a los que arrollas provocan AdO",
+"Embestida mejorada* Ataque poderoso Bonificador +2 a los intentos de embestida, sin AdO",
+"Embestida mayor* Embestida mejorada, ataque base +6 Los enemigos a los que embistes provocan AdO",
+"Hendedura* Ataque poderoso Haz un ataque adicional si el primero impacta",
+"Gran hendedura* Hendedura, ataque base +4 Haz un ataque adicional despu�s de cada ataque que impacte",
+"Romper arma mejorado* Ataque poderoso Bonificador +2 a los intentos de romper arma, sin AdO",
+"Romper arma mayor* Romper arma mejorado, Da�o de intentos de romper arma transferido a tu enemigo",
+"Atl�tico � Bonificador +2 a las pruebas de Trepar y Nadar",
+"Aumentar convocaci�n Soltura con conjuros (conjuraci�n) Criaturas convocadas obtienen +4 Fue y Con",
+"Autosuficiente � Bonificador +2 a las pruebas de Curar y de Supervivencia",
+"Canalizaci�n adicional Rasgo de clase canalizar energ�a Canalizas energ�a 2 veces/d�a adicionales",
+"Canalizaci�n elemental Rasgo de clase canalizar energ�a Canalizar energ�a puede curar o da�ar elementales",
+"Canalizaci�n mejorada Rasgo de clase canalizar energ�a Bonificador +2 a la CD de canalizar energ�a",
+"Canalizaci�n selectiva Car 13, r. de clase canalizar energ�a Escoges a qui�n afectar con canalizar energ�a",
+"Canalizar alineamiento Rasgo de clase canalizar energ�a Canalizar energ�a puede curar o da�ar a los ajenos",
+"Canalizar castigo* Rasgo de clase canalizar energ�a Canalizas energ�a a trav�s de tu ataque",
+"Comandar muertos vivientes R. de clase canalizar energ�a negativa C. energ�a puede utilizarse para controlar muertos vivientes",
+"Combate con dos armas* Des 15 Reduce los penalizadores por luchar con dos armas",
+"C. con dos armas mejorado* Des 17, C. con dos armas, at. base +6 Obtienes un ataque adicional con la mano torpe",
+"C. con dos armas mayor* Des 19, C. con dos armas mejorado, Obtienes un tercer ataque con la mano torpe",
+"C. con dos armas, ataque base +11",
+"Defensa con dos armas* Combate con dos armas Bonificador +1 por escudo cuando luchas con dos armas",
+"Doble tajo* Combate con dos armas Sumas bonif. por Fue a las tiradas de da�o con la mano torpe",
+"Desgarrar con dos armas* Doble tajo, C. con dos armas mej., Desgarras a un enemigo impactado por tus dos armas ataque base +11",
+"Combatir desde una montura* Montar 1 rango Evitas ataques a la montura con una prueba de Montar",
+"Ataque al galope* Combatir desde una montura Te mueves antes y despu�s de un ataque montado",
+"Carga impetuosa* Ataque al galope Doble da�o en una carga montado",
+"Desmontar jinete* Combatir desde una montura, Derribas a los oponentes de sus monturas Embestida mejorada",
+"Disparar desde una montura* Combatir desde una montura Mitad de penalizaci�n por ataques a distancia montado",
+"Pisotear* Combatir desde una montura Arrollas a objetivos montado",
+"Comp. con arma ex�tica* Ataque base +1 Sin penalizador en ataques con un arma ex�tica",
+"Comp. con arma marcial � Sin penalizador a los ataques hechos con un arma marcial",
+"Competencia con armadura ligera � Sin penalizadores a los ataques llevando armadura ligera",
+"Comp. con arm. intermedia Comp. con armadura ligera Sin penalizadores a los ataques llevando arm. intermedia",
+"Comp. con armadura pesada Comp. con armadura intermedia Sin penalizadores a los ataques llevando armadura pesada",
+"Competencia con armas sencillas � Sin penalizadores a los ataques hechos con armas sencillas",
+"Competencia con escudo � Sin penalizadores a las tiradas de ataque usando un escudo",
+"Comp. con escudo pav�s* Competencia con escudo Sin pen. a las tiradas de ataque al usar un escudo pav�s",
+"Golpear con esc. mejorado* Competencia con escudo Mantienes tu bonificador por escudo cuando golpeas con �l",
+"Golpetazo con el escudo * Golpear con el escudo mejorado, Embestida gratuita con un ataque de golpear con el escudo",
+"Combate con dos armas, ataque base +6",
+"Maestro del escudo* Golp. con el escudo, at. base +11 Sin penalizadores atacar con dos armas con un escudo",
+"Soltura con el escudo* Comp. con escudo, ataque base +1 Obtienes un bonificador +1 a tu CA al usar un escudo",
+"Solt. mayor con el escudo* Solt. con el escudo, gue. de 8� nivel Obtienes un bonificador +1 a tu CA al usar un escudo",
+"Conjurar en combate � Bonificador +4 a las pr. de concentraci�n lanz. a la defensiva",
+"Conjuros naturales Sab 13, rasgo de clase forma salvaje Lanzas conjuros estando en forma salvaje",
+"Conjuros perforantes � Bonificador +2 a las pruebas de nivel para superar la RC",
+"Conjuros perforantes mayor Conjuros perforantes Bonificador +2 a las pruebas de nivel para superar la RC",
+"Contraatacar* Ataque base +11 Atacas a enemigos que te atacan usando alcance",
+"Contraconjuro mejorado � Contraconjuras con un conjuro de la misma escuela",
+"Correr � Corres a 5 veces tu velocidad normal",
+"Cr�tico mejorado* Comp. con un arma, at. base +8 Doblas el rango de amenaza de un arma",
+"Desenvainado r�pido* Ataque base +1 Desenvainas un arma como acci�n gratuita",
+"Disparo a bocajarro* � +1 ataque y da�o a objetivos a 30 pies (9 m) o menos",
+"Disparo a la carrera* Des 13, Movilidad, Disp. a bocajarro, Atacas a distancia en cualquier punto del movimiento ataque base +4",
+"Disparo a larga distancia* Disparo a bocajarro Reduce a la mitad las penalizaciones por alcance",
+"Disparo preciso* Disparo a bocajarro Sin penalizador por disparar a un cuerpo a cuerpo",
+"Disparo preciso mejorado* Des 19, D. preciso, ataque base +11 Sin cobertura u ocultamiento en ataques a distancia",
+"Punter�a precisa* D. preciso mej., ataque base +16 Sin bonif. por armadura o escudo en un ataque a distancia",
+"Disparo r�pido* Des 13, Disparo a bocajarro Haces un ataque a distancia adicional",
+"Disparos m�ltiples* Des 17, Disp. r�pido, ataque base +6 Disparas dos flechas simult�neamente",
+"Dureza � +3 puntos de golpe, +1 por Dado de golpe m�s all� del 3�",
+"Enga�oso � Bonificador +2 a las pruebas de Enga�ar y Disfrazarse",
+"Entr. arcano con armadura* Comp. arm. ligera, n. de lanzador 3� Reduce probabilidad de fallo de conjuros arcanos en 10%",
+"Maestr�a arcana con armadura* Entr. arcano con armadura, Reduce probabilidad de fallo de conjuros arcanos en 20%",
+"Comp. arm. intermedia, NL 7�",
+"Entr. en combate defensivo* � Usas todos tus DG como ataque base para la DMC",
+"Esquiva* Des 13 Bonificador +1 por esquiva a la CA",
+"Movilidad* Esquiva +4 a la CA contra ataques de oportunidad por movimiento",
+"Ataque el�stico* Movilidad, ataque base +4 Te mueves antes y despu�s de un ataque cuerpo a cuerpo",
+"Posici�n del viento* Des 15, Esquiva, ataque base +6 Obtienes 20% de ocultaci�n si te mueves",
+"Posici�n del rel�mpago* Des 17, Pos. del viento, at. base +11 Obtienes 50% de ocultaci�n si te mueves",
+"Expulsar muertos vivientes R. de clase canalizar energ�a positiva C. energ�a puede usarse para hacer huir a los m. vivientes",
+"Familiar mejorado Capacidad para obtener un familiar, Obtienes un familiar m�s poderoso ver texto de la dote",
+"Furia adicional Rasgo de clase furia Tienes 6 asaltos/d�a adicionales de furia",
+"Golpe arcano* Aptitud para lanzar conjuros arcanos +1 al da�o y las armas se consideran m�gicas",
+"Golpe vital* Ataque base +6 Infliges el doble de da�o normal en un solo ataque",
+"Golpe vital mejorado* Golpe vital, ataque base +11 Infliges el triple de da�o normal en un solo ataque",
+"Golpe vital mayor* G. vital mej., G. vital, at. base +16 Infliges el cu�druple de da�o normal en un solo ataque",
+"Gran fortaleza � +2 a las salvaciones de Fortaleza",
+"Gran fortaleza mejorada Gran fortaleza Puedes repetir una salvaci�n de Fortaleza 1 vez/d�a",
+"Impacto sin arma mejorado* � Siempre se te considera armado",
+"Desviar flechas* Des 13, Impacto sin arma mejorado Evitas 1 ataque a distancia por asalto",
+"Atrapar flechas* Des 15, Desviar flechas Atrapas 1 ataque a distancia por asalto",
+"Estilo del escorpi�n* Impacto sin arma mejorado Reduces la velocidad del objetivo en 5 pies (1,5 m)",
+"Pu�o del gorg�n* Estilo del escorpi�n, ataque base +6 Dejas grogui a un enemigo cuya velocidad ha sido reducida",
+"Ira de la medusa* Pu�o del gorg�n, ataque base +11 2 ataques adicionales contra un enemigo obstaculizado",
+"Presa mejorada* Des 13, Impacto sin arma mejorado Bonif. +2 a las pruebas de presa, sin ataque de oportunidad",
+"Presa mayor* Presa mejorada, ataque base +6 Mantienes una presa como acci�n de movimiento",
+"Pu�etazo aturdidor* Des 13, Sab 13, Imp. sin arma mej., Aturdes a un oponente con un impacto sin arma ataque base +8",
+"Imposici�n de manos adicional Rasgo de clase imposici�n de manos Tienes 2 usos/d�a adicionales de imposici�n de manos",
+"Iniciativa mejorada* � Bonificador +4 a las pruebas de iniciativa",
+"Interpretaci�n adicional Rasgo de clase interp. de bardo Tienes 6 asaltos/d�a adicionales de interpretaci�n de bardo",
+"Ki adicional Rasgo de clase reserva de ki Aumentas tu reserva de ki en 2 puntos",
+"Lanzar cualquier cosa* � Sin penalizadores por armas a distancia improvisadas",
+"Liderazgo Nivel de personaje 7� Ganas un allegado y seguidores",
+"Lucha a ciegas* � Tira de nuevo probabilidades de ocultaci�n fallidas",
+"Maestr�a con armas improvisadas* Usar arma improvisada o Conviertes en mortal un arma improvisada",
+"Lanzar cualquier cosa, ataque base +8",
+"Maestr�a en conjuros Mago de 1er nivel Preparas algunos conjuros sin libro de conjuros",
+"Maniobras �giles* � Usas tu bonificador de Des para calcular tu BMC",
+"Manos h�biles � Bonif. +2 a las pr. de Inutilizar mecanismo y Juego de manos",
+"Merced adicional Rasgo de clase merced Tu imposici�n de manos tiene 1 merced adicional",
+"Movimientos �giles Des 13 Ignoras 5 pies (1,5 m) de terreno dif�cil cuando te mueves",
+"Pasos acrob�ticos Des 15, Movimientos �giles Ignoras 20 pies (6 m) de terreno dif�cil cuando te mueves",
+"Paso adelante* Ataque base +1 Das un paso de 5 pies (1,5 m) como acci�n inmediata",
+"Pericia en combate* Int 13 Cambias bonificador al ataque por bonificador a la CA",
+"Ataque de torbellino* Des 13, Pericia en combate, Haz un at. c/c contra todos los enemigos a tu alcance",
+"Ataque el�stico, ataque base +4",
+"Derribo mejorado* Pericia en combate Bonif. +2 a los intentos de derribo, sin AdO",
+"Derribo mayor* Derribo mejorado, ataque base +6 Enemigos a los que derribas provocan AdO",
+"Desarme mejorado* Pericia en combate Bonificador +2 a los intentos de desarmar, sin AdO",
+"Desarme mayor Desarme mejorado, ataque base +6 Armas afectadas arrojadas fuera del alcance de tu enemigo",
+"Finta mejorada* Pericia en combate Fintas como acci�n de movimiento",
+"Finta mayor* Finta mejorada, ataque base +6 Enemigos fintados pierden 1 asalto su bonificador por Des",
+"Persuasivo � Bonificador +2 a las pruebas de Diplomacia y de Intimidar",
+"Perturbador* Guerrero de 6� nivel Aumenta la CD de lanzar conjuros adyacentes a ti",
+"Rompeconjuros* Perturbador, guerrero de 10� nivel Enemigos provocan ataques si sus conjuros fallan",
+"Pies ligeros � Tu velocidad base aumenta en 5 pies (1,5 m)",
+"Poder�o intimidante* � Suma Fue a Intimidar adem�s de Car",
+"Punter�a mortal* Des 13, ataque base +1 Cambias bonificador de ataque a distancia por da�o.",
+"Recarga r�pida* Competencia con arma (ballestas) Recargas r�pidamente una ballesta",
+"Reflejos de combate* � Haz ataques de oportunidad adicionales",
+"Detener* Reflejos de combate Evitas que los enemigos te rebasen",
+"Reflejos r�pidos � Bonificador +2 a las salvaciones de Reflejos",
+"Reflejos r�pidos mejorados Reflejos r�pidos Una vez al d�a puedes repetir una salvaci�n de Reflejos",
+"Sigiloso � Bonificador +2 a las pruebas de Escapismo y de Sigilo",
+"Soltura con los conjuros � Bonificador +1 a la CD de las salvaciones para una escuela",
+"Soltura mayor con los conjuros Soltura con conjuros Bonificador +1 a la CD de las salvaciones para una escuela",
+"Soltura con los cr�ticos* Ataque base +9 Bonificador +4 a las tiradas de ataque para confirmar impactos cr�ticos",
+"Cr�tico asombroso* Soltura con los cr�ticos , at. base +13 Cuando consigues un cr�tico, el objetivo queda grogui.",
+"Cr�tico aturdidor* Cr�tico asombroso, ataque base +17 Cuando consigues un cr�tico, el objetivo queda aturdido",
+"Cr�tico cegador* Soltura con los cr�ticos , at. base +15 Cuando consigues un cr�tico, el objetivo queda cegado",
+"Cr�tico ensordecedor* Soltura con los cr�ticos , at. base +13 Cuando consigues un cr�tico, el objetivo queda ensordecido",
+"Cr�tico fatigante* Soltura con los cr�ticos , at. base +13 Cuando consigues un cr�tico, el objetivo queda fatigado",
+"Cr�tico agotador* Cr�tico fatigante, ataque base +15 Cuando consigues un cr�tico, el objetivo queda exhausto",
+"Cr�tico nauseabundo* Soltura con los cr�ticos , at. base +11 Cuando consigues un cr�tico, el objetivo queda indispuesto",
+"Cr�tico sangrante* Soltura con los cr�ticos , at. base +11 Cuando consigues un cr., adem�s 2d6 pg de sangrado",
+"Maestr�a con los cr�ticos* 2 dotes de cr�tico, guerrero nivel 14� Aplica 2 efectos a tus impactos cr�ticos",
+"Soltura con un arma* Comp. con un arma, ataque base +1 Bonif. +1 a las tiradas de ataque con un arma determinada",
+"Especializaci�n con un arma* S. con un arma, guerrero de 4� nivel Bonificador +2 a las tiradas de da�o con un arma determinada",
+"Esp. mayor con un arma* Esp. con un arma, gue. de 12� nivel Bonificador +2 a las tiradas de da�o con un arma determinada",
+"Exhibici�n deslumbrante* Soltura con un arma Intimidas a todos los enemigos a 30 pies (9 m) o menos",
+"Destrozar defensas* Exh. deslumbrante, ataque base +6 Los enemigos obstaculizados quedan desprevenidos",
+"Golpe mortal* Soltura mayor con un arma, Infliges doble da�o y adem�s 1 punto de sangrado de Con",
+"Destrozar defensas, ataque base +11",
+"Golpe perforante* S. con un arma, guerrero de 12� nivel Tus ataques ignoran 5 puntos de RD",
+"Golpe perforante mayor* G. perforante, guerrero de 16� nivel Tus ataques ignoran 10 puntos de RD",
+"Soltura mayor con un arma * S. con un arma, guerrero de 8� nivel Bonif. +1 a las tiradas de ataque con un arma determinada",
+"Soltura con una habilidad � Bonificador +3 a una habilidad (+6 con 10 rangos)",
+"Sutileza con las armas* � Des en lugar de Fue en tiradas de ataque con armas ligeras",
+"Usar arma improvisada* � Sin penalizadores por armas cuerpo a cuerpo improvisadas",
+"Voluntad de hierro � Bonificador +2 a las salvaciones de Voluntad",
+"Voluntad de hierro mejorada Voluntad de hierro Una vez al d�a puedes repetir una salvaci�n de Voluntad",
+"Dotes de creaci�n de objeto Prerrequisitos Beneficios",
+"Elaborar poci�n Nivel de lanzador 3� Crear pociones m�gicas",
+"Fabricar ar. y armaduras m�gicas Nivel de lanzador 5� Crear armas, armaduras y escudos m�gicos",
+"Fabricar bast�n Nivel de lanzador 11� Crear bastones m�gicos",
+"Fabricar cetro Nivel de lanzador 9� Crear cetros m�gicos",
+"Fabricar objeto maravilloso Nivel de lanzador 3� Crear objetos maravillosos m�gicos",
+"Fabricar varita Nivel de lanzador 5� Crear varitas m�gicas",
+"Forjar anillo Nivel de lanzador 7� Crear anillos m�gicos",
+"Inscribir pergamino Nivel de lanzador 1� Crear pergaminos m�gicos",
+"Ampliar conjuro � Doblas el alcance de un conjuro",
+"Apresurar conjuro � Lanzas un conjuro como acci�n r�pida",
+"Conjurar en silencio � Lanzas un conjuro sin componentes verbales",
+"Conjurar sin moverse � Lanzas un conjuro sin componentes verbales",
+"Extender conjuro � Doblas el �rea de un conjuro",
+"Intensificar conjuro � Tratas un conjuro como de un nivel mayor",
+"Maximizar conjuro � Maximizas las variables de un conjuro",
+"Potenciar conjuro � Incrementas en un 50% las variables de un conjuro",
+"Prolongar conjuro � Doblas la duraci�n de un conjuro",
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+https://nivel20.com/games/dnd-5/rulebooks/4-reglas-basicas/spell_lists/3-conjuros-de-mago
+Hechizos
+
+ACECHADOR
+Requisitos: Destreza 13 o más.
+Eres experto e n escabu llirte ent re las so mbra s. Obtienes los
+beneficios sigu ien tes:
+Pued es i ntentar esconde rte simpl emente con es tar en u na
+zona lige ram ente osc ura desde el punto de vi sta de la cria-
+tura de la que d eseas ocu l tarte .
+Cuando estás escon dido de un a criatu ra y fa ll as un ataque
+con ar ma a distancia con tr a e lla, el h abe r r eal izado este ata-
+que no revela tu ubi cac ión.
+La luz tenue no te provoca desve ntaja en l as pr ue bas de
+Sabiduría (P ercepc ión) que depe n den de la vista.
+ACTOR
+Debido a tu habilidad para la imitación y el a r te dramático,
+recibes los beneficios s igu ientes:
+Tu puntuac ión de Car isma aumenta e n 1, hasta un máximo
+de 20.
+• Tienes ventaja en las pruebas de Car isma (Engaño) y
+Car isma (! nterpretación) que h agas para h acerte pasar por
+otra persona .
+• Puedes imi tar el h ab la de otra persona o los so nidos que
+hace n o tr as c r iaturas. Debes haber oído hab lar a la persona
+o los sonidos de la cr iat ura durante al menos 1 minuto. Si
+quien te escucha vence en una prueba de Sab iduría (Pers-
+picacia) enfre n tada a tu prueba de Car isma (Engaño), sabrá
+que se trata de una imitación.
+AFORTUNADO
+Posees una suerte inexplicable, que te sonríe siempre en el
+momento idóneo.
+Tienes 3 puntos de suerte. Cuando hagas una tirada de ata-
+que, prueba de característica o tirada de sa lvación, podrás gasta r
+1 punto de suerte para tirar l d20 adiciona l. Pued es elegir hace r
+esto después de haber hecho la tirada, pero antes de que se deter-
+mine el resultado. Podrás escoger cuál de los 2d20 vas a usar en
+la tirada de ataque, prueba de característica o tirada de sa lvación .
+También puedes gastar 1 punto de sue r te después de que se
+haga una tirada de ataque contra ti. Tira ld20 y decide co n qué
+resultado quieres que se realice el ataq ue, si co n el de l dado de l
+ataca nte o con el tuyo.
+Si más de una cr iatura invierte puntos de suerte en influir en
+el resultado de la misma tirada, los puntos se cancelan unos con
+o tros y no se tiran dados ad icionales.
+Recuperas todos tus puntos de sue rte tras finalizar un des-
+canso largo.
+ALERTA
+S iempre estás atento a l peligro. Obtienes los be neficios
+sigu ie ntes :
+• Ganas un bo nifi cador de +5 a la iniciati va .
+• Mientras estés consciente no puedes se r sorprend ido.
+• Las c ri aturas que te ataq ue n sin que puedas ve rlas no reci-
+ben ventaja e n sus ti radas de ataque por e ste motivo.
+APRESADOR
+Requisitos: Fuerza 13 o más.
+Has desarrollado las apt it udes necesa r ias para pelear bi e n a
+d i sta n cias extremada m ente cortas. Obtienes los beneficios
+siguientes:
+• Tienes ventaja en las tiradas de ataque contra una criatura a
+la que est és agarrando.
+Puedes usar tu acción para intentar somete r a un objeti vo al
+que es tés aga rrando. Para e ll o, h az otra prueba de agarrar.
+Si tienes éxito, tanto tú como la criatu ra estaré is apresados
+hasta que el agarre finalice.
+ATACANTE A LA CARGA
+Cuando utilizas tu acción para Correr, puedes usar una acción adi-
+cional para h acer un ataque con arma cuerpo a cuerpo o empuja r a
+una criatura.
+Si mueves al menos 10 pies en línea recta justo antes de emp le ar
+esta acción adicional, podrás elegir en tre gana r un bonificador
+de +5 a la tirada de daño del ataque (si optas por ha cer el ataque
+cuerpo a cuer po e impactas) o empujar al objetivo hasta 10 pies en
+dirección contraria a ti (si decides empujar y tienes éxito).
+ATACANTE SALVAJE
+Una vez por turn o, c uando t ira s el daño de un ataque co n arma
+cue r po a cu er po , pued es r epet ir los dados de daño del arma y
+usar el r es ult ado que prefieras.
+ATLETA
+Has seg uido un ent re namiento fí s ico muy intenso, que te pro -
+porciona los be neficios sig ui entes:
+• Tu puntuación de Fu erza o Dest r eza au m en ta e n 1, ha s ta un
+máximo de 20.
+• So lo te cu esta 5 pi es de movimie nt o leva n ta r te cua ndo es t ás
+de rribado.
+• No n eces it as invertir movi mi e nto adicional para tr epa r.
+• Puedes h acer un sa lto co n ca rrerill a, tanto de a ltura co mo
+de longitud, tra s hab erte movido tan so lo 5 pi es, en lu gar de
+los 10 pies h ab itua les .
+CAPÍTULO 6 OPCIONLS DE Pl:.RSON \UZACIÓN
+AZOTE DE MAGOS
+H as en sayado técnicas útiles para luchar en cuer po a c uer po
+co ntra lanza dor es de co nj uro s, recibiendo los be neficios
+s igu ie ntes:
+Si una criatura que se enc u entre a 5 pies o menos de ti lanza
+un conjuro, puedes uti li zar tu reacc ión para h acer un ataque
+co n a r ma cue rpo a c ue rp o co ntr a ella.
+Si infliges dañ o a una c ria t ura qu e se está co n ce n tra ndo e n
+un conjuro, est a tendrá desventaja e n ias tira d as de sa lva-
+ción que ha ga c on el fin de ma n te n er la co nc e ntrac ión.
+• Ti enes ventaja e n las ti rad as de sa lvac ión co nt ra los co n-
+j uro s lan zados por cr iat uras que se encuen tr en a 5 pies o
+menos de ti.
+CENTINELA
+H as dom i nado una se rie de técni cas que te permiten a pro-
+vech arte de la m ás mínima brec ha en las defe nsas de tu
+ene migo, por lo que r ec ib es los s iguien tes b ene fi cios :
+Si impactas a una criatura con un ataq ue de oportunidad, su
+ve locidad desciende a O durante el resto de l turno.
+Podrás hacer ataques de oportunidad incluso con tr a aque-
+llas criaturas que rea licen una acc i ón de Destrabarse an tes
+de sal ir de tu alcance.
+• Cuando una criatura que se encuentre a 5 pies o menos de
+ti ataque a un objetivo que no seas tú (y dicho objetivo no
+posea también esta dote), podrás usar tu reacción para rea-
+li zar un ataque con arma cue r po a cuer po contra la criatura
+atacante.
+COMBATIENTE CON Dos ARMAS
+Has dominado el co.mbate con dos armas, obteni endo los bene-
+ficios sigui entes:
+Recibes un +l a tu CA cuando estás emp uñand o varias
+armas cuerpo a cuerpo, una en cada mano.
+Puedes combatir con dos armas incluso si l as armas que
+estás util i za ndo no son liger as.
+Puedes envainar y desenvainar dos armas a una mano en
+aquellas ci rcunstancias en las que antes solo podías hacerlo
+con una .
+COMBATIENTE MONTADO
+Er es un en emigo muy peligroso cuando te encuentras sob re
+una montura. Obtendrás los beneficios sigu ientes mie n tras
+estés sobre una montura y no est és incapacitado:
+Tienes ventaja e n las tiradas de ataque cuerpo a c u erpo
+cont ra cualquier criatura que no esté montada y sea de un
+tamaño inferior al de tu m ontura.
+• Puedes obligar a que un ataq ue cuyo objetivo ori gina l fuera
+tu montura te tenga como objetivo a ti en su lugar.
+• Si tu montura es víctima de un efecto que le permita hacer
+una tirada de salvación de Destreza para recibir solo la
+mitad del daño, no recibirá daño alguno si tiene éxito en la
+tirada de salvación y solo la mitad si falla.
+DUELISTA DEFENSIVO
+Requisitos: Destreza 13 o más.
+Cua ndo estás em puñ ando un arma sut il con la que seas com-
+petente y otra criatura te impacte con un .ataque cuerpo a
+cuerpo, podrás utilizar tu reacción para s umar tu bonificador
+por competenc ia a tu CA a efectos de este ataq ue. Con suerte,
+conseguirás que falle.
+DURO
+Tus puntos de golpe máximos au me ntan en dos veces tu
+nivel en el momento en que eliges esta dote. A partir de ese
+momento, cada vez que alcances un nuevo nivel tus puntos de
+golpe máximos aumentarán en 2 más.
+EXPERTO EN BALLESTAS
+Debido a una pr ác ti ca intensa con la ba ll esta, has co n seguido
+los bene fi cios sigui en tes:
+Puedes ignorar la propiedad '·r ecarga" de las ballestas con
+las que eres competente.
+• Esta r a 5 pies o menos de una criatura hostil no te causa
+desventaja en las ti radas de ataque a distanc ia .
+Cu an do realizas una acción de Atacar y atacas con un arma
+a una mano, puedes u tilizar tu acc ión adic ional para atacar
+co n una bal lesta de mano que estés sujetando.
+EXPLORADOR DE MAZMORRAS
+Estás alerta a las trampas ocultas y las puertas secretas
+h abituales en mu chas m azmorras, lo que te proporciona los
+beneficios sigu ientes:
+Tienes ventaja en las pruebas de Sabiduría (Pe rcepción) e
+Int eligencia (Investigación) para detectar la presencia de
+puertas secretas.
+Posees ventaja en las tiradas de salvación pa ra evitar o resis-
+t ir trampas.
+• Tienes resistencia al daño cau sado por trampas.
+Eres capaz de buscar trampas mientras vi ajas a un ritmo
+normal, en lugar de tener que hacerlo a un ritmo lento.
+HABILIDOSO
+Ganas compe te ncia en cua lqu ier comb inación de t res habilida-
+des o herramientas de tu elección.
+INICIADO EN LA MAGIA
+Elige una clase: bardo, brujo, clérigo, dru ida, hechicero o
+mago. Apr endes dos trucos de tu elección escogidos de entre
+los de la lista de conjuros de esa clase.
+También aprendes el conjuro de nivel 1 que escojas de dicha
+lista. Podrás emplea r esta dote para lanzar una vez este con-
+juro a su nivel más bajo. Deberás finalizar un descanso largo
+para poder lanzarlo otra vez med iante esta dote.
+Tu aptitud mágica para estos conjuros dependerá de la clase
+que hayas elegido: Carisma para bardo, brujo o hechicero;
+Sabiduría para clérigo o druida; e Inteligencia para mago.
+LANZADOR EN COMBATE
+Requisitos: la capacidad de lanzar al menos un conjuro.
+Has practicado cómo lanzar conjuros en medio del com-
+bate, ap r endiendo técnicas que te proporcionan los beneficios
+s igui entes:
+• Tienes ventaja en las tir adas de salvación de Constit ución
+que hagas para mantener la concentración en un conjuro
+cuando recibes daño.
+Puedes ejecutar los componentes somáticos de tus conju-
+ros incluso cuando empuñas armas o un esc udo, en un a o
+ambas manos.
+• Cua ndo el movimiento de una c ri atura host il te permite
+hacer un ataque de oportunidad co ntra ella, puedes u sar tu
+reacción para, en l ugar de realizar este ataque, lanzar un
+conjuro contra la c riatura. Dicho conj ur o deberá tener un
+tiempo de lanzamiento de 1 acción y tener como objetivo una
+única criatura.
+LANZADOR PRECISO
+Requisitos: la capacidad de lanzar al menos un conjuro.
+Has aprendido varias técnicas que te pe rmiten mejorar tus ata-
+ques con ciertos tipos de conjuros, recibiendo los beneficios
+s iguientes:
+Cuando lances un conju ro que precise de una tirada de ata-
+que, su alcance se duplica.
+Tus ataques de conjuros a distancia ignoran las cobertu r as
+media y tres cuartos.
+Aprendes un t ru co que requiera de una tirada de ata-
+que. Escógelo de entre l as listas de bardo, brujo, clérigo,
+druida, hechicero o mago . Tu aptitud mágica pa ra este t ru co
+dependerá de la clase a la que pertenezca la lista en la que
+figuraba: Carisma para bardo, brujo o hechicero; Sabid uría
+para clér igo o druida; e Inteligencia para mago.
+CAPITULO ti OPCIONES DE PERSON-\l.IZAC IÓN
+168
+LANZADOR RITUAL
+Requis itos: fnteligencia o Sab iduría 13 o más.
+H as a prendido una serie de conjuros que puedes lanzar como
+rituales. Estos conjuros están escritos en un libro de rituales, que
+debes tener en l as man os para poder lanzar cualquiera de ellos.
+Cuando escojas esta dote obtend rás este libro, que contendrá
+dos conju ros de nivel 1 de tu elección. El ige una de las siguie n-
+tes clases: bar do, brujo, clérigo, druida, hechicero o mago. Debes
+escoger los conjuros de e ntre los de la lista de dicha clase y
+ambos deben est ar m arcados como "ritual". La clase elegida tam-
+bién det erm in ará tu ap titud mágica para e llos: Car isma para
+bardo, brujo o hechicero; Sabidu ría p ara clérigo o druida; e Inteli-
+gencia pa ra mago.
+S i te encue n tras co n u n conjuro que esté plasmado por escrito,
+como e n un pergamino de conjuro o en el libro de conjuros de un
+mago, podrás añadirlo a tu libro de rituales. Dicho conjuro deberá
+figu rar en la lista de la clase que elegiste, su nivel no puede ser
+super ior a la mitad del tuyo (redondeando hac ia arriba) y debe
+estar marcado como "ritual". El proceso de copia al libro de ritua-
+les precisa de 2 horas y 50 po p or cada nivel de l co nj uro. Este
+coste representa los comp onentes materiales que gastas al expe-
+rimentar con el conju ro hasta dominarlo, así como las va li osas
+tint as que utili zas pa ra registrarlo.
+LÍDER INSPIRADOR
+Re quisitos: Carisma 13 o más.
+P u edes invertir 10 min utos en in sp i rar a tus compañeros,
+ap u nta l ando su vo luntad para luchar. Cuando hagas esto,
+escoge hasta a se is cr iat uras amistosas (entre las que pue-
+des e n contrarte tú m ismo) a 30 pi es o me nos de ti que pue da n
+ver te u o ír te y sean capaces de e n tenderte. Cada u no de estos
+objetivos recibe tantos pu ntos de go lpe temp orales co mo tu
+nivel + tu mod ificador por Ca risma.
+Ninguna de las criaturas pue de volver a rec ibir puntos de
+golpe temporales gracias a esta dote hasta que termine un des-
+canso corto o largo.
+LIGERAMENTE ACORAZADO
+Te h as en t renado hasta dominar el co m bate e n ar m adu r as lige-
+ras, obte ni en do los be neficios s iguie ntes:
+• Tu punt uación de Fu e r za o Destreza aumenta en 1, hasta un
+m áximo de 20 .
+• Ganas competencia con armaduras ligeras.
+LINGÜISTA
+H as est ud iado idiom as y códigos, adquirien do los beneficios
+s iguie ntes:
+Tu p unt uac ión de Inteligencia aumenta en 1, hasta un
+m áx i mo de 20 .
+Apre nd es tres idiom as de tu elecc ión.
+Er es ca p az de inventar cód i gos p ara cifrar mensajes esc r i-
+t os. Si alguie n quie re descifrarlos tend rá tres opciones: que
+le enseñes cómo hacerlo, tener éxito en una p ru eba de Inte-
+ligencia (CD tu punt u ac ión de Inteligencia+ tu modificador
+por competenc ia) o rec ur rir a la magia.
+MAESTRO DE ARMAS
+H as practi ca do in te n sa m ente co n una gra n variedad de ar mas,
+por lo que dis fr utas de los beneficios sigu ientes:
+Tu puntuación de F uerza o Destreza aumenta e n 1, hasta un
+máximo de 20.
+Ganas competenc ia co n cuatro armas de tu elección. Podrás
+escoge r cualq ui er ar ma se ncilla o marc ia l.
+CAPÍTULO 6: OPCION!:.S DE PERSONALIZACIÓN
+MAESTRO EN ARMADURAS MEDIAS
+Requisitos: competente con armaduras m edias.
+Te h as acostu mbrado a mover te con a r madu r as med ias, obte-
+nie ndo los be neficios s igu ientes :
+• Llevar a r ma du ra media no te da desventaja en las pruebas
+de Destreza (Sigilo).
+• Cua ndo portas armadura med ia pu edes s u mar 3, en luga r
+de 2, a tu CA s i tien es Destreza 16 o m ás.
+MAESTRO EN ARMADURAS PESADAS
+Requ isitos: competencia con armadur as pesadas.
+Er es capaz de em plear tu armadura para desv iar golpes que
+matarían a otros. Obtien es los beneficios s igu ientes:
+• Tu puntuac ión de Fuerza a u me nta en 1, has ta un máximo
+de 20.
+• Mientras estás llevando ar madura pesada, el daño con-
+tunden te, cortante y p erfo r ante de a r mas no mágicas que
+r ec ibas se re du ce en 3.
+MAESTRO EN ARMAS DE ASTA
+Posees l os bene fi cios sigu ientes :
+• Cua ndo realizas u na acción de Atacar y atacas únicamente
+con una a l aba rda, bastó n o guja, pu1edes emplea r tu acción
+adicional para ejec u ta r un ataque cuerpo a cuerpo con el
+lado op u esto del a r ma . Este ata qu e utiliza el mismo modifi-
+cado r por caracte ríst ica que el at aque pr imario, su dado de
+daño es d4 e inflige daño cont u nden te.
+• Mientr as estás empu ñando una a l abarda , bastón, guja o
+pica, p uedes hacer un a t aque de op ort u nidad contra aque-
+llas cr iaturas que entren d en t ro de l alca n ce que estas
+armas te dan.
+MAESTRO EN ARMAS PESADAS
+Has apre ndi do a usar el peso de tu arma en tu beneficio,
+empleando su i mpulso para reforzar tus golpes . Obtienes los
+beneficios sigu ientes :
+• Una vez po r turno, cua ndo, con un arma cu erpo a cuerpo ,
+hagas un cr ítico o r eduzcas los pu ntos de golpe de una cr ia-
+tu ra a O, podrás uti li zar tu acc ión adicional pa ra rea li zar un
+ataque co n a r ma cue r po a cu erpo .
+• Puedes eleg i r, antes de hacer u n ataque cuerpo a cuerpo
+con un arma pesada con la que seas competente, sufr ir un
+penalizado r de - 5 a la tirada de ataque. Si impactas, puedes
+s u ma r +10 al daño del ataque.
+MAESTRO EN ESCUDOS
+-----
+No solo usas el escudo pa ra protegerte, si no también para
+ataca r. Mien tras estés embrazando un escudo rec ibirás los
+beneficios s iguientes:
+• S i rea l izas una acc ión de Atacar durante tu turno, pue-
+des ut i lizar una acción ad i ciona l para intentar emp ujar
+una c ri atura q ue se encuentre a 5 pies o menos de ti con
+tu escudo.
+• S i no estás incapacitado, pu edes añadi r el bonificador de CA
+de tu escudo a cualqu ier ti r ada de salvación de Destr eza q ue
+h agas cont ra cua lq uier co nju ro u ot ro efecto pe rn icioso que
+solo te tenga como objetivo a t i.
+Si eres victima de u n efecto que te permite h acer u na tirada
+de salvación de Destreza pa ra recibir solo la m itad de l daño,
+p uedes emplear tu reacc i ón para no recibir daño alg u no
+si tien es éxito en la tirada de salvación, inter pon iendo tu
+esc udo e n tre el origen del efecto y tú
+MATÓN DE TABERNA
+Estás acostumbrado a pelear de forma brusca y agresiva,
+empleando como ar ma cua lqui er o bj eto qu e caiga en tus
+manos. Por ta nto, posees l os beneficios siguientes:
+• Tu pun tuación de Fuerza o Co nstitu ción aum enta en 1, hasta
+un máximo de 20.
+• Eres competente con armas improvisadas.
+• Tus ataques sin ar m as infligen l d4 de daño.
+• Cuando impactas a un a c ri atura con un ataque si n ar mas o
+un arma improvisada durante tu turno, puedes utili zar u na
+acción adicional para int entar agarrar al objetivo.
+MENTE AGUDA
+Posees una mente con una capac id ad asombrosa para percibir
+el paso del tiempo, o ri enta rs e y reco rd ar hasta el más m íni mo
+deta ll e. Obtienes los benefic ios s igui entes:
+Tu puntuación de In teligencia aumenta en 1, hasta un
+máximo de 20.
+• Si e mpre distingu es dónde está el no rt e.
+Siempre sabes cuá nt as horas faltan para el siguiente ama ne-
+cer o anochecer.
+• Puedes recordar con exactitud todo lo que hayas visto u oído
+durante el último mes.
+MODERADAMENTE ACORAZADO
+Requisitos: competencia con armaduras ligeras.
+Te has entrenado hasta dominar el combate en arma dura s
+media s y escudos, obteniendo los beneficios sigu ientes:
+Tu p untu ación de Fuerza o Destreza aume nta en 1, hasta un
+máximo de 20.
+• Ganas competencia con armaduras medias y escudos.
+CAPITULO (: OPCIO:-l'F.S D~ PERSONAi IZACIÓN 169
+170
+MÓVIL
+-------
+Eres excepc ionalme n te ág il y veloz. Posees los beneficios
+s igu ie nt es:
+• Tu velocidad aumenta en 10 pies.
+• Al reali zar una acción de Correr, el terreno difícil no te
+cuesta movimiento adicional durante este turno.
+Si r ea l izas un ataque cuer po a cuerpo co nt ra una criatura
+( imp ac t es o no), no provocarás ataques de oportunidad de
+esa c ria tura durante el resto del turno.
+MUY ACORAZADO
+Requisitos: competente con armaduras medias.
+Te ha s ent r enado hasta dominar el combate e n armaduras
+pesadas, o bte ni endo los be ne fi cios siguientes:
+• Tu puntuación de Fuerza aume nta en 1, h asta un máximo
+de 20 .
+• Ganas compe t enc ia con armaduras pesadas.
+ÜBSERVADOR
+Te percatas con faci lidad de los detalles de tu e ntorno, por lo
+que recibes los beneficios s iguientes:
+Tu puntuación de Inteligencia o Sabidu ría aumenta en 1,
+hasta un máximo de 20.
+Podrás saber lo que di ce, leyendo sus labios, cualquier c ria -
+tura que esté habla ndo un idioma que conozcas y cuya boca
+puedas ver.
+• Tienes un bonificador de +5 a tus puntuaciones de Sabiduría
+(Percepción) e Inteligencia (Investigación) pasivas.
+RESILIENTE
+Elige una puntuación de característica. Obtie n es los beneficios
+siguientes:
+Tu puntuación de característica elegida aumenta en 1, hasta
+un máximo de 20.
+Obtienes compete ncia en las tiradas de sa lvación de la
+caracte ríst i ca elegida.
+RESISTENTE
+Tu dureza y r es is tencia te otorgan los beneficios siguientes:
+Tu puntuación de Constitución aumenta en 1, hasta un
+máximo de 20.
+• Cuando tiras un Dado de Golpe pa ra recuperar puntos de
+golpe, el número mínimo que recuperas con esta tirada es
+dos veces tu modificador por Constitución (como mínimo 2).
+SANADOR
+Ti enes t alento como médico. Eres capaz de cerrar heridas
+ráp idamente, permit iendo a tus aliados vo lver al combate.
+Obtienes los be ne fi ci os sigui e ntes:
+f \PITULO b . OPCIOXES DE PERSO!--ALIZ ACION
+Cuando estab il izas a una cr iatura que está agonizando (con
+O puntos de golpe) utilizando un os út i les de sanador, la cria-
+tura también r ecupe ra 1 punto de golpe.
+• Como acción, puedes gasta r un o d e los usos de uno s útiles
+de sanador para atender a un a criat ur a y hacerla recuperar
+ld6 + 4 puntos de golpe. Ad emás , el objetivo también recu-
+pera tantos puntos de golpe adicionales co mo su número de
+Dados de Golpe máximos. Esta criatura no puede volver a
+recuperar puntos de golpe gracias a esta dote hasta que ter-
+mine un descanso corto o largo.
+TIRADOR DE PRIMERA
+Eres un ma es tro de las armas a distancia, capaz de acertar
+con di sparos qu e otros cons iderarían imposibles. Posees los
+beneficios siguientes:
+No tienes desventaja en las tirada s de ataque con armas a
+distancia a alcance largo.
+• Tus ataques co n armas a distancia ignoran l as coberturas
+media y tres cuartos.
+Puedes elegir, antes de hacer un ataque con un arma a dis-
+tancia con la que seas co m pe tente, sufrir un penalizador de
+- 5 a la tirada de ataque. Si impactas, puedes suma r +19 al
+daño del ataque.
+VERSADO EN LAS ARMAS
+----------Has r ec ibido un entrenamiento marcial que te perm ite eje-
+c u tar ciertas maniobras de combate. Obtienes los beneficios
+siguientes:
+• Aprendes dos maniobras a tu elección de ent re l as dispo-
+nibles para el ar qu etipo Maestro del Combate de la clase
+gue rrero. Si a lguna exige a tu objetivo h acer una tirada de
+salvación para resistir sus efectos, la CD se rá 8 + tu modi-
+ficador por compete n cia+ tu modificador por Fuerza o
+Destreza (tú e li ges).
+Si ya tienes dados de supremacía, ganas uno más; y si no lo
+tienes ganas un dado de supremacía, que es un d6.
+Puedes utilizar este dado para ejecutar tus maniobras,
+y se gastará cuando lo uses. Recuperas todos los dados de
+su prem acía tr as hacer un descanso corto o largo.
+VERSADO EN UN ELEMENTO
+-----------Requisitos: la capacidad de lanzar al menos un conjuro.
+Cuan do obtengas esta dote, elige uno de los siguientes tipos de
+daño: ácido, frío, fuego, relámpago o trueno.
+Los conjuros que lances i gnoran la resistencia al daño del
+tipo elegido. Además, cuando tires el d año de uno de tus conju-
+ros que inflija ese tipo de daño, puedes considerar cua lqui er 1
+en los dados de daño como 2.
+Puedes escoger esta dote varias veces, pero deberás elegir
+un tipo de daño distinto cada vez que lo hagas.
